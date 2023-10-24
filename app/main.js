@@ -2,7 +2,6 @@ const net = require("net");
 
 const pongResponse = `+PONG\r\n`
 
-// Uncomment this block to pass the first stage
 const server = net.createServer((connection) => {
   // Handle connection
   connection.on('data', () => {
