@@ -1,6 +1,6 @@
 const net = require("net");
 
-const pongResponse = `+PONG\r\n`
+const pongResponse = `+PONG\r\n`;
 
 const server = net.createServer((connection) => {
   // Handle connection
